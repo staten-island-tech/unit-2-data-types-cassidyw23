@@ -18,10 +18,21 @@ elif temp == 68:
 else:
     print('cold')
 
-x = input("pick a number")
-number = 8
-if number is (2,4,6,8,10):
-    print("even")
-if number is (1,3,5,7,9):
+number=input("pick a number")
+if number == "8": 
+    print ("even")
+else:
     print ("odd")
 
+#tip calculator
+
+initialBill = input ("What is the bill total?")
+tipValue = input ("how was the service?")
+if "service" == "bad":
+    print ('0%')
+elif "service" == "okay":
+    print ("15%")
+elif "service" == "good":
+    print ('20%')
+elif "sevice" == "great":
+    print ("25%")
