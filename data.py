@@ -1,4 +1,4 @@
-x = 3
+""" x = 3
 y = float(3)
 print(x,y)
 
@@ -8,9 +8,7 @@ if day_of_week == "Friday":
 else:
     print("incorrect")
 
-    x = "test"
-print(f"hello {x}")
-temp = 75
+input ("What is the temperature?")
 if temp > 68:
     print('warm')
 elif temp == 68:
@@ -19,20 +17,26 @@ else:
     print('cold')
 
 number=input("pick a number")
-if number == "8": 
+if int(number) % 2 == 0: 
     print ("even")
 else:
-    print ("odd")
+    print ("odd") """
 
 #tip calculator
-
 initialBill = input ("What is the bill total?")
 tipValue = input ("how was the service?")
-if "service" == "bad":
-    print ('0%')
-elif "service" == "okay":
-    print ("15%")
-elif "service" == "good":
-    print ('20%')
-elif "sevice" == "great":
-    print ("25%")
+initialBill = 1
+if tipValue == "bad":
+    input('0%') 
+    print(1+ (0.01 * 0))
+elif tipValue == "okay":
+    input("15%") 
+    print(1 + (0.01 * 15))
+elif tipValue == "good":
+    input('20%') 
+    print(1 + (0.01 * 20))
+elif tipValue == "great":
+    input("25%") 
+    print(1 + (0.01 * 25))
+else:
+    print("choose another option")
