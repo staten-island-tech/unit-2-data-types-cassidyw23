@@ -23,19 +23,20 @@ else:
     print ("odd") """
 
 #tip calculator
-y_initialBill = int(input("What is the bill total?"))
+x_initialBill = int(input("What is the bill total?"))
 x_tipValue = input("how was the service?")
 if x_tipValue == "Bad": 
-    print('0%') 
-    print(int(y_initialBill)*(1(0.01*0)))
+    print("0") 
+    print((input(x_initialBill)) * (1 + (0.01 * 0)))
 elif x_tipValue == "Okay":
-    print("15%") 
-    print(int(y_initialBill)*(1(0.01*15)))
+    print("15") 
+    print((input(x_initialBill)) * (1 + (0.01 * 15)))
 elif x_tipValue == "Good":
-    print('20%') 
-    print(int(y_initialBill)*(1(0.01*20)))
+    print("20") 
+    print((input(x_initialBill)) * (1 + (0.01 * 20)))
 elif x_tipValue == "Great":
-    print("25%") 
-    print(int(y_initialBill)*(1(0.01*25)))
+    print("25") 
+    print((input(x_initialBill)) * (1 + (0.01 * 25)))
 else:
     print("choose another option")
+
