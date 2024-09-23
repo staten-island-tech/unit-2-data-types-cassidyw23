@@ -2,6 +2,7 @@
 y = float(3)
 print(x,y)
 
+```python
 day_of_week = input("what day is it? ")
 if day_of_week == "Friday":
     print("correct")
@@ -24,19 +25,20 @@ else:
 
 #tip calculator
 x_initialBill = int(input("What is the bill total?"))
-x_tipValue = input("how was the service?")
+x_tipValue = (input("how was the service?"))
 if x_tipValue == "Bad": 
     print("0") 
-    print((input(x_initialBill)) * (1 + (0.01 * 0)))
+    print((int(x_initialBill)) * (1 + (0.01 * 0)))
 elif x_tipValue == "Okay":
     print("15") 
-    print((input(x_initialBill)) * (1 + (0.01 * 15)))
+    print((int(x_initialBill)) * (1 + (0.01 * 15)))
+    x = round(12.9999999999999)
 elif x_tipValue == "Good":
     print("20") 
-    print((input(x_initialBill)) * (1 + (0.01 * 20)))
+    print((int(x_initialBill)) * (1 + (0.01 * 20)))
 elif x_tipValue == "Great":
     print("25") 
-    print((input(x_initialBill)) * (1 + (0.01 * 25)))
+    print((int(x_initialBill)) * (1 + (0.01 * 25)))
 else:
     print("choose another option")
 
