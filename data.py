@@ -9,7 +9,7 @@ if day_of_week == "Friday":
 else:
     print("incorrect")
 
-input ("What is the temperature?")
+temp = 75
 if temp > 68:
     print('warm')
 elif temp == 68:
@@ -24,7 +24,7 @@ else:
     print ("odd") """
 
 #tip calculator
-x_initialBill = int(input("What is the bill total?"))
+""" x_initialBill = int(input("What is the bill total?"))
 x_tipValue = (input("how was the service?"))
 if x_tipValue == "Bad": 
     print("0") 
@@ -40,5 +40,10 @@ elif x_tipValue == "Great":
     print("25") 
     print((int(x_initialBill)) * (1 + (0.01 * 25)))
 else:
-    print("choose another option")
+    print("choose another option") """
 
+
+x_integer = input ("pick an number")
+for i in range (int(x_integer)):
+    if int(x_integer) % (i) == 0: 
+        print("int")
