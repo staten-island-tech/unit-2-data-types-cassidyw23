@@ -45,5 +45,5 @@ else:
 
 x_integer = input ("pick an number")
 for i in range (int(x_integer)):
-    if int(x_integer) % (i) == 0: 
+   
         print("int")
