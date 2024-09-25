@@ -43,10 +43,6 @@ else:
     print("choose another option") """
 
 
-x_integer = input ("pick a number")
-def factorize (x):
-    for (x) in input (int("pick a number")):
-        print (x)
-for i in range (int(x_integer)):
-    if (i) > 0 and (int(input)) % (i) == 0:
-        print(i)
+x_integer = int(input("pick a number"))
+factors = factorize(x_integer)
+    Print(factors of [x_integer])
