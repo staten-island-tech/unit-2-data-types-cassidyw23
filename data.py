@@ -42,7 +42,8 @@ elif x_tipValue == "Great":
 else:
     print("choose another option") """
 
-
+def factorize(x):
+    
 x_integer = int(input("pick a number"))
 factors = factorize(x_integer)
     Print(factors of [x_integer])
