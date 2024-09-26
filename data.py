@@ -42,11 +42,19 @@ elif x_tipValue == "Great":
 else:
     print("choose another option") """
 
+""" x_integer = input ("pick a number")
+for x in range (int(x_integer)):
+     if (x) > 0 and (int(x_integer)) % (x) == 0: 
+        print((x)) """
 
-x_integer = input ("pick a number")
-def factorize (x):
-    for (x) in input (int("pick a number")):
-        print (x)
-for i in range (int(x_integer)):
-    if (i) > 0 and (int(input)) % (i) == 0:
-        print(i)
+#GCF
+number_1 = input ("pick a number")
+for x in range (int(number_1)):
+     if (x) > 0 and (int(number_1)) % (x) == 0: 
+        print((x))
+number_2 = input ("pick another number")
+for y in range (int(number_2)):
+     if (y) > 0 and (int(number_2)) % (y) == 0: 
+        print((y))
+def find_gcf(x,y):
+    gcf = find_gcf(number_1, number_2)
