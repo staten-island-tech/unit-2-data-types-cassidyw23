@@ -48,22 +48,20 @@ for x in range (int(x_integer)):
         print((x)) """
 
 #GCF
-number_1 = input ("pick a number")
-for x in range (int(number_1)):
-     if (x) > 0 and (int(number_1)) % (x) == 0: 
-        print((x)) 
-number_2 = input ("pick another number")
-for y in range (int(number_2)):
-     if (y) > 0 and (int(number_2)) % (y) == 0: 
-        print((y))
-def gcf(find_gcf):
-         find_gcf(number_1 and number_2)
-if(x) > 0 and (int(number_1)) % (x) == 0: 
-        print((x)) 
-elif(y) > 0 and (int(number_2)) % (y) == 0: 
-        print((y))
-else:
-      print ("no gcf")
+number_1 = int(input("pick a number"))
+number_2 = int(input("pick another number"))
+gcf = []
+for x in range(int((number_1 + 1))):
+    if x in range(int((number_2 + 1))) and (x) > 0:
+        if number_1 % x == 0 and number_2 % x == 0:
+            gcf.append(x)
+
+print(max(gcf))
+
+
+
+ 
+
 
 
  
